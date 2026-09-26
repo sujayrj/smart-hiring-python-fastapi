@@ -10,6 +10,8 @@ fusion → interviewer decision → audit** — where **AI scores, humans decide
   Anthropic by setting `.env`.
 - **Seed data:** `input-data.json` (3 JDs, 18 rubric questions, 10 synthetic résumés, 14 users).
 
+> Requirements, success metrics, FAQ and the mentor intern interview guide: see **[EVALUATION.md](EVALUATION.md)**.
+
 ---
 
 ## Project layout
@@ -37,6 +39,7 @@ smart-hire-python/
 │       ├── services/           # api client
 │       └── pages/              # Login, Admin/*, Candidate/*, Interviewer/*
 ├── input-data.json             # synthetic seed data
+├── EVALUATION.md               # requirements, FAQ & mentor intern interview guide
 ├── .env.example
 └── docker-compose.yml
 ```
