@@ -1,0 +1,11 @@
+# Tested on Python 3.11-3.14. Latest wheels are used so cp314 installs cleanly.
+fastapi>=0.115
+uvicorn[standard]>=0.34
+SQLAlchemy>=2.0.36
+pydantic>=2.10
+pydantic-settings>=2.7
+PyJWT>=2.10
+httpx>=0.28
+
+# dev / test
+pytest>=8.3
